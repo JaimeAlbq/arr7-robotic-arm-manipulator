@@ -1,0 +1,2440 @@
+# Created by Octave 4.2.2, Thu Jun 06 04:12:12 2019 -03 <jaiminho@JAVA-Verde>
+# name: R1
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 114
+[cos(a1)  -sin(a1)  0]
+[                    ]
+[sin(a1)  cos(a1)   0]
+[                    ]
+[   0        0      1]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+Matrix([[cos(a1), -sin(a1), 0], [sin(a1), cos(a1), 0], [0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 180
+MutableDenseMatrix([[cos(Symbol('a1')), Mul(Integer(-1), sin(Symbol('a1'))), Integer(0)], [sin(Symbol('a1')), cos(Symbol('a1')), Integer(0)], [Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 3
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 142
+⎡cos(a₁)  -sin(a₁)  0⎤
+⎢                    ⎥
+⎢sin(a₁)  cos(a₁)   0⎥
+⎢                    ⎥
+⎣   0        0      1⎦
+
+
+
+
+
+
+
+# name: R2
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 114
+[cos(a2)   0  sin(a2)]
+[                    ]
+[   0      1     0   ]
+[                    ]
+[-sin(a2)  0  cos(a2)]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+Matrix([[cos(a2), 0, sin(a2)], [0, 1, 0], [-sin(a2), 0, cos(a2)]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 180
+MutableDenseMatrix([[cos(Symbol('a2')), Integer(0), sin(Symbol('a2'))], [Integer(0), Integer(1), Integer(0)], [Mul(Integer(-1), sin(Symbol('a2'))), Integer(0), cos(Symbol('a2'))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 3
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 142
+⎡cos(a₂)   0  sin(a₂)⎤
+⎢                    ⎥
+⎢   0      1     0   ⎥
+⎢                    ⎥
+⎣-sin(a₂)  0  cos(a₂)⎦
+
+
+
+
+
+
+
+# name: R23
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 164
+[cos(a2 + a3)   0  sin(a2 + a3)]
+[                              ]
+[      0        1       0      ]
+[                              ]
+[-sin(a2 + a3)  0  cos(a2 + a3)]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 86
+Matrix([[cos(a2 + a3), 0, sin(a2 + a3)], [0, 1, 0], [-sin(a2 + a3), 0, cos(a2 + a3)]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 256
+MutableDenseMatrix([[cos(Add(Symbol('a2'), Symbol('a3'))), Integer(0), sin(Add(Symbol('a2'), Symbol('a3')))], [Integer(0), Integer(1), Integer(0)], [Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3')))), Integer(0), cos(Add(Symbol('a2'), Symbol('a3')))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 3
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 200
+⎡cos(a₂ + a₃)   0  sin(a₂ + a₃)⎤
+⎢                              ⎥
+⎢      0        1       0      ⎥
+⎢                              ⎥
+⎣-sin(a₂ + a₃)  0  cos(a₂ + a₃)⎦
+
+
+
+
+
+
+
+# name: R3
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 114
+[cos(a3)   0  sin(a3)]
+[                    ]
+[   0      1     0   ]
+[                    ]
+[-sin(a3)  0  cos(a3)]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+Matrix([[cos(a3), 0, sin(a3)], [0, 1, 0], [-sin(a3), 0, cos(a3)]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 180
+MutableDenseMatrix([[cos(Symbol('a3')), Integer(0), sin(Symbol('a3'))], [Integer(0), Integer(1), Integer(0)], [Mul(Integer(-1), sin(Symbol('a3'))), Integer(0), cos(Symbol('a3'))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 3
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 142
+⎡cos(a₃)   0  sin(a₃)⎤
+⎢                    ⎥
+⎢   0      1     0   ⎥
+⎢                    ⎥
+⎣-sin(a₃)  0  cos(a₃)⎦
+
+
+
+
+
+
+
+# name: R4
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 114
+[1     0        0    ]
+[                    ]
+[0  cos(a4)  -sin(a4)]
+[                    ]
+[0  sin(a4)  cos(a4) ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+Matrix([[1, 0, 0], [0, cos(a4), -sin(a4)], [0, sin(a4), cos(a4)]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 180
+MutableDenseMatrix([[Integer(1), Integer(0), Integer(0)], [Integer(0), cos(Symbol('a4')), Mul(Integer(-1), sin(Symbol('a4')))], [Integer(0), sin(Symbol('a4')), cos(Symbol('a4'))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 3
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 142
+⎡1     0        0    ⎤
+⎢                    ⎥
+⎢0  cos(a₄)  -sin(a₄)⎥
+⎢                    ⎥
+⎣0  sin(a₄)  cos(a₄) ⎦
+
+
+
+
+
+
+
+# name: T1
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 181
+[cos(a1)  -sin(a1)  0  0]
+[                       ]
+[sin(a1)  cos(a1)   0  0]
+[                       ]
+[   0        0      1  0]
+[                       ]
+[   0        0      0  1]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 89
+Matrix([[cos(a1), -sin(a1), 0, 0], [sin(a1), cos(a1), 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 266
+MutableDenseMatrix([[cos(Symbol('a1')), Mul(Integer(-1), sin(Symbol('a1'))), Integer(0), Integer(0)], [sin(Symbol('a1')), cos(Symbol('a1')), Integer(0), Integer(0)], [Integer(0), Integer(0), Integer(1), Integer(0)], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 217
+⎡cos(a₁)  -sin(a₁)  0  0⎤
+⎢                       ⎥
+⎢sin(a₁)  cos(a₁)   0  0⎥
+⎢                       ⎥
+⎢   0        0      1  0⎥
+⎢                       ⎥
+⎣   0        0      0  1⎦
+
+
+
+
+
+
+
+# name: T123
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 749
+[                                                                    /__\]
+[cos(a1)*cos(a2 + a3)  -sin(a1)  sin(a2 + a3)*cos(a1)  l2*cos(a1)*cos\a2/]
+[                                                                        ]
+[                                                                    /__\]
+[sin(a1)*cos(a2 + a3)  cos(a1)   sin(a1)*sin(a2 + a3)  l2*sin(a1)*cos\a2/]
+[                                                                        ]
+[                                                                  /__\  ]
+[   -sin(a2 + a3)         0          cos(a2 + a3)       l1 - l2*sin\a2/  ]
+[                                                                        ]
+[         0               0               0                    1         ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 257
+Matrix([[cos(a1)*cos(a2 + a3), -sin(a1), sin(a2 + a3)*cos(a1), l2*cos(a1)*cos(conjugate(a2))], [sin(a1)*cos(a2 + a3), cos(a1), sin(a1)*sin(a2 + a3), l2*sin(a1)*cos(conjugate(a2))], [-sin(a2 + a3), 0, cos(a2 + a3), l1 - l2*sin(conjugate(a2))], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 703
+MutableDenseMatrix([[Mul(cos(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3')))), Mul(Integer(-1), sin(Symbol('a1'))), Mul(sin(Add(Symbol('a2'), Symbol('a3'))), cos(Symbol('a1'))), Mul(Symbol('l2'), cos(Symbol('a1')), cos(conjugate(Symbol('a2'))))], [Mul(sin(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3')))), cos(Symbol('a1')), Mul(sin(Symbol('a1')), sin(Add(Symbol('a2'), Symbol('a3')))), Mul(Symbol('l2'), sin(Symbol('a1')), cos(conjugate(Symbol('a2'))))], [Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3')))), Integer(0), cos(Add(Symbol('a2'), Symbol('a3'))), Add(Symbol('l1'), Mul(Integer(-1), Symbol('l2'), sin(conjugate(Symbol('a2')))))], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 885
+⎡                                                                    ⎛__⎞⎤
+⎢cos(a₁)⋅cos(a₂ + a₃)  -sin(a₁)  sin(a₂ + a₃)⋅cos(a₁)  l₂⋅cos(a₁)⋅cos⎝a₂⎠⎥
+⎢                                                                        ⎥
+⎢                                                                    ⎛__⎞⎥
+⎢sin(a₁)⋅cos(a₂ + a₃)  cos(a₁)   sin(a₁)⋅sin(a₂ + a₃)  l₂⋅sin(a₁)⋅cos⎝a₂⎠⎥
+⎢                                                                        ⎥
+⎢                                                                  ⎛__⎞  ⎥
+⎢   -sin(a₂ + a₃)         0          cos(a₂ + a₃)       l₁ - l₂⋅sin⎝a₂⎠  ⎥
+⎢                                                                        ⎥
+⎣         0               0               0                    1         ⎦
+
+
+
+
+
+
+
+# name: T1234
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1659
+[                                                                                                                                     /__\                        __]
+[cos(a1)*cos(a2 + a3)  -sin(a1)*cos(a4) + sin(a4)*sin(a2 + a3)*cos(a1)  sin(a1)*sin(a4) + sin(a2 + a3)*cos(a1)*cos(a4)  l2*cos(a1)*cos\a2/ + cos(a1)*cos(a2 + a3)*l3]
+[                                                                                                                                                                   ]
+[                                                                                                                                     /__\                        __]
+[sin(a1)*cos(a2 + a3)  sin(a1)*sin(a4)*sin(a2 + a3) + cos(a1)*cos(a4)   sin(a1)*sin(a2 + a3)*cos(a4) - sin(a4)*cos(a1)  l2*sin(a1)*cos\a2/ + sin(a1)*cos(a2 + a3)*l3]
+[                                                                                                                                                                   ]
+[                                                                                                                                       /__\                __      ]
+[   -sin(a2 + a3)                   sin(a4)*cos(a2 + a3)                             cos(a4)*cos(a2 + a3)                    l1 - l2*sin\a2/ - sin(a2 + a3)*l3      ]
+[                                                                                                                                                                   ]
+[         0                                   0                                               0                                              1                      ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 517
+Matrix([[cos(a1)*cos(a2 + a3), -sin(a1)*cos(a4) + sin(a4)*sin(a2 + a3)*cos(a1), sin(a1)*sin(a4) + sin(a2 + a3)*cos(a1)*cos(a4), l2*cos(a1)*cos(conjugate(a2)) + cos(a1)*cos(a2 + a3)*conjugate(l3)], [sin(a1)*cos(a2 + a3), sin(a1)*sin(a4)*sin(a2 + a3) + cos(a1)*cos(a4), sin(a1)*sin(a2 + a3)*cos(a4) - sin(a4)*cos(a1), l2*sin(a1)*cos(conjugate(a2)) + sin(a1)*cos(a2 + a3)*conjugate(l3)], [-sin(a2 + a3), sin(a4)*cos(a2 + a3), cos(a4)*cos(a2 + a3), l1 - l2*sin(conjugate(a2)) - sin(a2 + a3)*conjugate(l3)], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1404
+MutableDenseMatrix([[Mul(cos(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3')))), Add(Mul(Integer(-1), sin(Symbol('a1')), cos(Symbol('a4'))), Mul(sin(Symbol('a4')), sin(Add(Symbol('a2'), Symbol('a3'))), cos(Symbol('a1')))), Add(Mul(sin(Symbol('a1')), sin(Symbol('a4'))), Mul(sin(Add(Symbol('a2'), Symbol('a3'))), cos(Symbol('a1')), cos(Symbol('a4')))), Add(Mul(Symbol('l2'), cos(Symbol('a1')), cos(conjugate(Symbol('a2')))), Mul(cos(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Mul(sin(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3')))), Add(Mul(sin(Symbol('a1')), sin(Symbol('a4')), sin(Add(Symbol('a2'), Symbol('a3')))), Mul(cos(Symbol('a1')), cos(Symbol('a4')))), Add(Mul(sin(Symbol('a1')), sin(Add(Symbol('a2'), Symbol('a3'))), cos(Symbol('a4'))), Mul(Integer(-1), sin(Symbol('a4')), cos(Symbol('a1')))), Add(Mul(Symbol('l2'), sin(Symbol('a1')), cos(conjugate(Symbol('a2')))), Mul(sin(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3')))), Mul(sin(Symbol('a4')), cos(Add(Symbol('a2'), Symbol('a3')))), Mul(cos(Symbol('a4')), cos(Add(Symbol('a2'), Symbol('a3')))), Add(Symbol('l1'), Mul(Integer(-1), Symbol('l2'), sin(conjugate(Symbol('a2')))), Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1891
+⎡                                                                                                                                     ⎛__⎞                        __⎤
+⎢cos(a₁)⋅cos(a₂ + a₃)  -sin(a₁)⋅cos(a₄) + sin(a₄)⋅sin(a₂ + a₃)⋅cos(a₁)  sin(a₁)⋅sin(a₄) + sin(a₂ + a₃)⋅cos(a₁)⋅cos(a₄)  l₂⋅cos(a₁)⋅cos⎝a₂⎠ + cos(a₁)⋅cos(a₂ + a₃)⋅l₃⎥
+⎢                                                                                                                                                                   ⎥
+⎢                                                                                                                                     ⎛__⎞                        __⎥
+⎢sin(a₁)⋅cos(a₂ + a₃)  sin(a₁)⋅sin(a₄)⋅sin(a₂ + a₃) + cos(a₁)⋅cos(a₄)   sin(a₁)⋅sin(a₂ + a₃)⋅cos(a₄) - sin(a₄)⋅cos(a₁)  l₂⋅sin(a₁)⋅cos⎝a₂⎠ + sin(a₁)⋅cos(a₂ + a₃)⋅l₃⎥
+⎢                                                                                                                                                                   ⎥
+⎢                                                                                                                                       ⎛__⎞                __      ⎥
+⎢   -sin(a₂ + a₃)                   sin(a₄)⋅cos(a₂ + a₃)                             cos(a₄)⋅cos(a₂ + a₃)                    l₁ - l₂⋅sin⎝a₂⎠ - sin(a₂ + a₃)⋅l₃      ⎥
+⎢                                                                                                                                                                   ⎥
+⎣         0                                   0                                               0                                              1                      ⎦
+
+
+
+
+
+
+
+# name: T2
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 215
+[cos(a2)   0  sin(a2)  0 ]
+[                        ]
+[   0      1     0     0 ]
+[                        ]
+[                      __]
+[-sin(a2)  0  cos(a2)  l1]
+[                        ]
+[   0      0     0     1 ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 101
+Matrix([[cos(a2), 0, sin(a2), 0], [0, 1, 0, 0], [-sin(a2), 0, cos(a2), conjugate(l1)], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 279
+MutableDenseMatrix([[cos(Symbol('a2')), Integer(0), sin(Symbol('a2')), Integer(0)], [Integer(0), Integer(1), Integer(0), Integer(0)], [Mul(Integer(-1), sin(Symbol('a2'))), Integer(0), cos(Symbol('a2')), conjugate(Symbol('l1'))], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 257
+⎡cos(a₂)   0  sin(a₂)  0 ⎤
+⎢                        ⎥
+⎢   0      1     0     0 ⎥
+⎢                        ⎥
+⎢                      __⎥
+⎢-sin(a₂)  0  cos(a₂)  l₁⎥
+⎢                        ⎥
+⎣   0      0     0     1 ⎦
+
+
+
+
+
+
+
+# name: T23
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 449
+[                                        /__\   ]
+[cos(a2 + a3)   0  sin(a2 + a3)    l2*cos\a2/   ]
+[                                               ]
+[      0        1       0               0       ]
+[                                               ]
+[                                           /__\]
+[-sin(a2 + a3)  0  cos(a2 + a3)  l1 - l2*sin\a2/]
+[                                               ]
+[      0        0       0               1       ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 154
+Matrix([[cos(a2 + a3), 0, sin(a2 + a3), l2*cos(conjugate(a2))], [0, 1, 0, 0], [-sin(a2 + a3), 0, cos(a2 + a3), l1 - l2*sin(conjugate(a2))], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 448
+MutableDenseMatrix([[cos(Add(Symbol('a2'), Symbol('a3'))), Integer(0), sin(Add(Symbol('a2'), Symbol('a3'))), Mul(Symbol('l2'), cos(conjugate(Symbol('a2'))))], [Integer(0), Integer(1), Integer(0), Integer(0)], [Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3')))), Integer(0), cos(Add(Symbol('a2'), Symbol('a3'))), Add(Symbol('l1'), Mul(Integer(-1), Symbol('l2'), sin(conjugate(Symbol('a2')))))], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 531
+⎡                                        ⎛__⎞   ⎤
+⎢cos(a₂ + a₃)   0  sin(a₂ + a₃)    l₂⋅cos⎝a₂⎠   ⎥
+⎢                                               ⎥
+⎢      0        1       0               0       ⎥
+⎢                                               ⎥
+⎢                                           ⎛__⎞⎥
+⎢-sin(a₂ + a₃)  0  cos(a₂ + a₃)  l₁ - l₂⋅sin⎝a₂⎠⎥
+⎢                                               ⎥
+⎣      0        0       0               1       ⎦
+
+
+
+
+
+
+
+# name: T3
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 215
+[                      __]
+[cos(a3)   0  sin(a3)  l2]
+[                        ]
+[   0      1     0     0 ]
+[                        ]
+[-sin(a3)  0  cos(a3)  0 ]
+[                        ]
+[   0      0     0     1 ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 101
+Matrix([[cos(a3), 0, sin(a3), conjugate(l2)], [0, 1, 0, 0], [-sin(a3), 0, cos(a3), 0], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 279
+MutableDenseMatrix([[cos(Symbol('a3')), Integer(0), sin(Symbol('a3')), conjugate(Symbol('l2'))], [Integer(0), Integer(1), Integer(0), Integer(0)], [Mul(Integer(-1), sin(Symbol('a3'))), Integer(0), cos(Symbol('a3')), Integer(0)], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 257
+⎡                      __⎤
+⎢cos(a₃)   0  sin(a₃)  l₂⎥
+⎢                        ⎥
+⎢   0      1     0     0 ⎥
+⎢                        ⎥
+⎢-sin(a₃)  0  cos(a₃)  0 ⎥
+⎢                        ⎥
+⎣   0      0     0     1 ⎦
+
+
+
+
+
+
+
+# name: T4
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 215
+[                      __]
+[1     0        0      l3]
+[                        ]
+[0  cos(a4)  -sin(a4)  0 ]
+[                        ]
+[0  sin(a4)  cos(a4)   0 ]
+[                        ]
+[0     0        0      1 ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 101
+Matrix([[1, 0, 0, conjugate(l3)], [0, cos(a4), -sin(a4), 0], [0, sin(a4), cos(a4), 0], [0, 0, 0, 1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 279
+MutableDenseMatrix([[Integer(1), Integer(0), Integer(0), conjugate(Symbol('l3'))], [Integer(0), cos(Symbol('a4')), Mul(Integer(-1), sin(Symbol('a4'))), Integer(0)], [Integer(0), sin(Symbol('a4')), cos(Symbol('a4')), Integer(0)], [Integer(0), Integer(0), Integer(0), Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 4
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 257
+⎡                      __⎤
+⎢1     0        0      l₃⎥
+⎢                        ⎥
+⎢0  cos(a₄)  -sin(a₄)  0 ⎥
+⎢                        ⎥
+⎢0  sin(a₄)  cos(a₄)   0 ⎥
+⎢                        ⎥
+⎣0     0        0      1 ⎦
+
+
+
+
+
+
+
+# name: V1
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 19
+[0]
+[ ]
+[0]
+[ ]
+[0]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 23
+Matrix([[0], [0], [0]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 62
+MutableDenseMatrix([[Integer(0)], [Integer(0)], [Integer(0)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 39
+⎡0⎤
+⎢ ⎥
+⎢0⎥
+⎢ ⎥
+⎣0⎦
+
+
+
+
+
+
+
+# name: V2
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 29
+[0 ]
+[  ]
+[0 ]
+[  ]
+[__]
+[l1]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 35
+Matrix([[0], [0], [conjugate(l1)]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 75
+MutableDenseMatrix([[Integer(0)], [Integer(0)], [conjugate(Symbol('l1'))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 55
+⎡0 ⎤
+⎢  ⎥
+⎢0 ⎥
+⎢  ⎥
+⎢__⎥
+⎣l₁⎦
+
+
+
+
+
+
+
+# name: V23
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 125
+[        /__\   ]
+[  l2*cos\a2/   ]
+[               ]
+[       0       ]
+[               ]
+[           /__\]
+[l1 - l2*sin\a2/]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 68
+Matrix([[l2*cos(conjugate(a2))], [0], [l1 - l2*sin(conjugate(a2))]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 168
+MutableDenseMatrix([[Mul(Symbol('l2'), cos(conjugate(Symbol('a2'))))], [Integer(0)], [Add(Symbol('l1'), Mul(Integer(-1), Symbol('l2'), sin(conjugate(Symbol('a2')))))]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 183
+⎡        ⎛__⎞   ⎤
+⎢  l₂⋅cos⎝a₂⎠   ⎥
+⎢               ⎥
+⎢       0       ⎥
+⎢               ⎥
+⎢           ⎛__⎞⎥
+⎣l₁ - l₂⋅sin⎝a₂⎠⎦
+
+
+
+
+
+
+
+# name: V3
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 29
+[__]
+[l2]
+[  ]
+[0 ]
+[  ]
+[0 ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 35
+Matrix([[conjugate(l2)], [0], [0]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 75
+MutableDenseMatrix([[conjugate(Symbol('l2'))], [Integer(0)], [Integer(0)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 55
+⎡__⎤
+⎢l₂⎥
+⎢  ⎥
+⎢0 ⎥
+⎢  ⎥
+⎣0 ⎦
+
+
+
+
+
+
+
+# name: V4
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 29
+[__]
+[l3]
+[  ]
+[0 ]
+[  ]
+[0 ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 35
+Matrix([[conjugate(l3)], [0], [0]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 75
+MutableDenseMatrix([[conjugate(Symbol('l3'))], [Integer(0)], [Integer(0)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 3 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 55
+⎡__⎤
+⎢l₃⎥
+⎢  ⎥
+⎢0 ⎥
+⎢  ⎥
+⎣0 ⎦
+
+
+
+
+
+
+
+# name: a1
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a1
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a1
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('a1')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+a₁
+
+
+
+
+
+
+
+# name: a2
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a2
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a2
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('a2')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+a₂
+
+
+
+
+
+
+
+# name: a3
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a3
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a3
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('a3')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+a₃
+
+
+
+
+
+
+
+# name: a4
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a4
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+a4
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('a4')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+a₄
+
+
+
+
+
+
+
+# name: ans
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 469
+[              /__\                        __]
+[l2*cos(a1)*cos\a2/ + cos(a1)*cos(a2 + a3)*l3]
+[                                            ]
+[              /__\                        __]
+[l2*sin(a1)*cos\a2/ + sin(a1)*cos(a2 + a3)*l3]
+[                                            ]
+[                /__\                __      ]
+[     l1 - l2*sin\a2/ - sin(a2 + a3)*l3      ]
+[                                            ]
+[                     1                      ]
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 212
+Matrix([[l2*cos(a1)*cos(conjugate(a2)) + cos(a1)*cos(a2 + a3)*conjugate(l3)], [l2*sin(a1)*cos(conjugate(a2)) + sin(a1)*cos(a2 + a3)*conjugate(l3)], [l1 - l2*sin(conjugate(a2)) - sin(a2 + a3)*conjugate(l3)], [1]])
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 522
+MutableDenseMatrix([[Add(Mul(Symbol('l2'), cos(Symbol('a1')), cos(conjugate(Symbol('a2')))), Mul(cos(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Add(Mul(Symbol('l2'), sin(Symbol('a1')), cos(conjugate(Symbol('a2')))), Mul(sin(Symbol('a1')), cos(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Add(Symbol('l1'), Mul(Integer(-1), Symbol('l2'), sin(conjugate(Symbol('a2')))), Mul(Integer(-1), sin(Add(Symbol('a2'), Symbol('a3'))), conjugate(Symbol('l3'))))], [Integer(1)]])
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 4 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 593
+⎡              ⎛__⎞                        __⎤
+⎢l₂⋅cos(a₁)⋅cos⎝a₂⎠ + cos(a₁)⋅cos(a₂ + a₃)⋅l₃⎥
+⎢                                            ⎥
+⎢              ⎛__⎞                        __⎥
+⎢l₂⋅sin(a₁)⋅cos⎝a₂⎠ + sin(a₁)⋅cos(a₂ + a₃)⋅l₃⎥
+⎢                                            ⎥
+⎢                ⎛__⎞                __      ⎥
+⎢     l₁ - l₂⋅sin⎝a₂⎠ - sin(a₂ + a₃)⋅l₃      ⎥
+⎢                                            ⎥
+⎣                     1                      ⎦
+
+
+
+
+
+
+
+# name: l1
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l1
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l1
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('l1')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+l₁
+
+
+
+
+
+
+
+# name: l2
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l2
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l2
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('l2')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+l₂
+
+
+
+
+
+
+
+# name: l3
+# type: class
+# classname: sym
+# length: 6
+# name: ascii
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l3
+
+
+
+
+
+# name: extra
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+
+# name: flat
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+l3
+
+
+
+
+
+# name: pickle
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+Symbol('l3')
+
+
+
+
+
+# name: size
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 1 1
+
+
+
+
+
+# name: unicode
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 4
+l₃
+
+
+
+
+
+
+
